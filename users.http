@@ -11,10 +11,10 @@ POST http://localhost:3003/signup/
 Content-Type: application/json
 
 {
-    "username": "Subash",
+    "username": "arjunapk",
     "password": "2112",
-    "name": "Kalpana",
-    "age": 50,
+    "name": "Arjun P",
+    "age": 22,
     "gender": "male"
 }
 ###
@@ -34,4 +34,7 @@ Content-Type: application/json
     "age": 44,
     "gender": "female"
 }
+###
+
+DELETE http://localhost:3003/users/remove/8/
 ###

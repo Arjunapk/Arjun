@@ -84,3 +84,10 @@ app.put("/users/modify/:id/", async (request, response) => {
     await database.run(getModifyUserQuery)
     response.send("Update Successfully")
 })
+
+app.delete("/users/remove/:id/", async (request, response) => {
+    const {id} = request.params
+    const getRemoveUserQuery = `DELETE FROM users WHERE id = ${id};`
+    await database.run(getRemoveUserQuery)
+    response.send("Delete Successfully")
+})
