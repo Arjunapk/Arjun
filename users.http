@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
     "username": "kalpana",
-    "password": "1234"
+    "password": "12345"
 }
 ###
 
@@ -29,7 +29,7 @@ PUT  http://localhost:3003/users/modify/5/
 Content-Type: application/json
 
 {
-    "password": "1234",
+    "password": "12345",
     "name": "Kalpana",
     "age": 44,
     "gender": "female"
