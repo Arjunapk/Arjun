@@ -11,11 +11,11 @@ POST http://localhost:3003/signup/
 Content-Type: application/json
 
 {
-    "username": "kalpana",
+    "username": "Subash",
     "password": "2112",
     "name": "Kalpana",
     "age": 50,
-    "gender": "female"
+    "gender": "male"
 }
 ###
 
